@@ -5,7 +5,7 @@ int main ()
     int task;
     long double ana;
     float dolar, euro;
-    int n , i;
+    int n ;
     char ex, tur;
     float miktar;
     scanf("%d", &task);
@@ -15,7 +15,7 @@ int main ()
         
         scanf("%Lf %f %f", &ana, &euro, &dolar);
         scanf("%d", &n);
-        for  (i= 0; i<n; i++)
+        while  (n<0)
         {
             
             scanf("%c %c %f", &ex, &tur, &miktar);
@@ -42,7 +42,7 @@ int main ()
                 }
                 
             }
-            
+          n--;  
         }
        printf("Final balance: %.2Lf TL." , ana);
     }
