@@ -15,7 +15,7 @@ int main ()
         
         scanf("%Lf %f %f", &ana, &euro, &dolar);
         scanf("%d", &n);
-        while  (n<0)
+        while  (n>0)
         {
             
             scanf("%c %c %f", &ex, &tur, &miktar);
