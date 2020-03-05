@@ -18,7 +18,7 @@ int main ()
         while  (n>0)
         {
             
-            scanf("%c %c %f", &ex, &tur, &miktar);
+            scanf(" %c %c %f", &ex, &tur, &miktar);
             if (ex == 'D')
             {
                 if (tur== 'E')
@@ -50,7 +50,7 @@ int main ()
     {
         char test, ayt;
         float zz;
-        scanf("%c %c %f", &test, &ayt, &zz);
+        scanf(" %c %c %f", &test, &ayt, &zz);
         if (test == 'T')
         {
             int a1 ,a2,a3, a4;
