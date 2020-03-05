@@ -24,7 +24,7 @@ int main ()
             initial += (amount*rate_d);}
             else if (t_trans=='W' && currency == 'E'){
             initial -= (amount*rate_e);}
-            else if (t_trans=='w' && currency == 'D'){
+            else if (t_trans=='W' && currency == 'D'){
             initial -= (amount*rate_d);}
         }
          printf("Final balance: %.2Lf TL.",initial);
